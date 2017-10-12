@@ -44,8 +44,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
         tv1.setText(word.getMiwkiWord());
         tv2.setText(word.getEnglishWord());
 
-
-
+        
         return listView;
     }
 }
